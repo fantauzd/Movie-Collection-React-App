@@ -1,22 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const name = 'Fantauzzo';
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          The edits of <code>src/App.js</code> is complete.
+          Hello {name}!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          Did you know it is {Date()}
+        </p>
       </header>
     </div>
   );
