@@ -4,7 +4,7 @@ import movies from './data/movies';
 import MovieCollection from './components/MovieCollection';
 
 function App() {
-  const name = 'Nauman';
+  const name = 'Movie Lovers';
   return (
     <div className="App">
       <header className="App-header">
