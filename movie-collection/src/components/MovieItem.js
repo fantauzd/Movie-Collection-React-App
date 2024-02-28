@@ -3,11 +3,9 @@ import '../App.css';
 
 function MovieItem({movie}){
     return (
-        <div className="collection-item">
-            <h3>{movie.title}</h3>
-            <p>{movie.year} {movie.language}</p>
-
-        </div>
+        <li className="collection-item">
+            <p>{movie.title} - {movie.year} - {movie.language}</p>
+        </li>
     );
 }
 

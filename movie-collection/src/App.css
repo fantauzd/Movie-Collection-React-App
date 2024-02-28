@@ -23,8 +23,23 @@
   padding: 20px
 }
 
+li::marker {
+  background-color: #d00;
+  width: 1.3em;
+  height: 1.3em;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  left: -1.35em;
+  border-radius: 50%;
+  margin-right: 10px;
+  color:#61dafb
+}
+
 .collection-item {
   border: 6px solid rgb(153, 204, 51);
   width: 650px;
   margin-top: 20px;
+  margin-left: 25px;
 }
+
