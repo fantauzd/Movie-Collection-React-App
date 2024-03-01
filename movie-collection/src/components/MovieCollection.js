@@ -5,9 +5,9 @@ import '../App.css';
 function MovieCollection({movies}){
     console.log(movies)
     return (
-        <ol className="collection-container">
+        <div className="collection-container">
             {movies.map( (movie, i) => <MovieItem movie={movie} key={i} /> )}
-        </ol>
+        </div>
     );  
 }
 
